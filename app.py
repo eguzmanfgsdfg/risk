@@ -9,4 +9,4 @@ def handle_jlogin___():
 
 if __name__ == '__main__':
    print("+++++++++++++++++++++++++++++++++++ main")
-   app.run(debug=True, port=4000)
+   app.run(debug=False, port=4000)
