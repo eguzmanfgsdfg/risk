@@ -14,7 +14,7 @@ def model(input) -> str:
 
 
     #print('++++++++++Valores predichos 0')
-    import numpy 
+    import numpy as np
 
     print('++++++++++Valores predichos 1')
     import torch
