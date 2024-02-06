@@ -9,7 +9,7 @@ def model(input) -> str:
     ##########################
     #CARGA DE MODELOS
     ##########################
-    return "002"
+    return '002'
 """     
     #Librerias
     import numpy as np
