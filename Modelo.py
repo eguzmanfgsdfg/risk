@@ -17,7 +17,8 @@ def model(input) -> str:
     #LOAD EL ENCODER GUARDADO
     from sklearn.preprocessing import LabelEncoder
     #import numpy as np
-     
+    return "002"
+"""     
     le = LabelEncoder()
     le.classes_ = np.load('./classes.npy', allow_pickle=True)
 
@@ -102,3 +103,4 @@ def model(input) -> str:
     print('Score (probabilidad de fraude)')
     print(hist_adam['ypred_prob'])
     return hist_adam['ypred_prob']
+"""
