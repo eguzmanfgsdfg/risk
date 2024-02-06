@@ -66,4 +66,4 @@ jobs:
         with:
           app-name: 'bzpay-antifraud-front'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_873125EF3289462898321EAEC1782608 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E55D9915CAC14CB7A7AD916468E8B710 }}
