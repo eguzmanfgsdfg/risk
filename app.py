@@ -114,7 +114,6 @@ def handle_json_update():
    sp_update (query)
    return  ({'resp':'ok'})
 
-
 if __name__ == '__main__':
    print("+++++++++++++++++++++++++++++++++++ main")
    app.run(debug=False, port=4000)
