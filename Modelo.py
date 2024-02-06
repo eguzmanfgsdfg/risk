@@ -12,10 +12,10 @@ def model(input) -> str:
      
     #Librerias
 
-    return '002'
-"""
-    import numpy as np
 
+    import numpy 
+    return '003'
+"""
     import torch
 
     #LOAD EL ENCODER GUARDADO
