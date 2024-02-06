@@ -103,6 +103,7 @@ def handle_json_update():
    data = json.loads(request.data)
    print (request.data)
    
+
    print (data['id'])  
    print (data['authorization'])    
    print (data['respCode'])
