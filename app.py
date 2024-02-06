@@ -8,6 +8,7 @@ import jwt
 
 def get(data,nombre,str1=True) -> str:
    try:
+      print ('tag ', nombre)
       dat= data[nombre] #if str1 else f'{}'
       print ('val ',nombre,' = ',dat)
       return    f'{dat}'
