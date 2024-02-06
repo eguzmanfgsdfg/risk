@@ -62,7 +62,7 @@ def handle_json():
    
    valores = [[
       id                           ,get(data,'merchant') , get(data,'subMerchant')  ,                          '',int(get(data,'amount'))         ,
-      get(data,'additionalAmount') ,get(data,'currency') , get(data,'promoMonths')  ,get(data,'months')          ,'',
+      int(get(data,'additionalAmount')) ,get(data,'currency') , get(data,'promoMonths')  ,get(data,'months')          ,'',
       get(data,'entryMode')        ,get(data,'serial')   , get(data,'merchantName') ,get(data,'bankName')        ,'',
       ''                           ,''                   , ''                       ,''                          ,get(data,'descriptor'),
       get(data,'operation')        ,get(data,'bin')      , get(data,'countryClient'),get(data,'postalCodeClient'), get(data,'cityClient'),
