@@ -9,7 +9,8 @@ def model(input) -> str:
     ##########################
     #CARGA DE MODELOS
     ##########################
-
+    return "002"
+"""     
     #Librerias
     import numpy as np
     import torch
@@ -17,9 +18,8 @@ def model(input) -> str:
     #LOAD EL ENCODER GUARDADO
     from sklearn.preprocessing import LabelEncoder
     #import numpy as np
-    
-    return "002"
-"""     
+
+
     le = LabelEncoder()
     le.classes_ = np.load('./classes.npy', allow_pickle=True)
 
