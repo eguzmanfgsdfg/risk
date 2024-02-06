@@ -13,15 +13,15 @@ def model(input) -> str:
     #Librerias
 
     print('++++++++++Valores predichos 0')
-
+    return '002'
+"""
     import numpy 
 
     print('++++++++++Valores predichos 1')
     import torch
     
     print('++++++++++Valores predichos 2')
-    return '004'
-"""
+
     #LOAD EL ENCODER GUARDADO
     from sklearn.preprocessing import LabelEncoder
     #import numpy as np
