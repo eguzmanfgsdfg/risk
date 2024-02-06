@@ -9,12 +9,12 @@ def model(input) -> str:
     ##########################
     #CARGA DE MODELOS
     ##########################
-    return '002'
-"""     
+     
     #Librerias
     import numpy as np
     import torch
-
+    return '002'
+"""
     #LOAD EL ENCODER GUARDADO
     from sklearn.preprocessing import LabelEncoder
     #import numpy as np
