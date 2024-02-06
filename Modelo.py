@@ -12,6 +12,7 @@ def model(input) -> str:
      
     #Librerias
 
+
     print('++++++++++Valores predichos 0')
     return '002'
 """
