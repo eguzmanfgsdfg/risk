@@ -12,12 +12,12 @@ def model(input) -> str:
      
     #Librerias
 
-
+    return '002'
+"""
     import numpy as np
 
     import torch
-    return '002'
-"""
+
     #LOAD EL ENCODER GUARDADO
     from sklearn.preprocessing import LabelEncoder
     #import numpy as np
