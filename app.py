@@ -113,12 +113,7 @@ def handle_json_update():
    print("query ["+query+"]")
    sp_update (query)
    return  ({'resp':'ok'})
-    #response = client.post('/data_extraction'), data=json.dumps(payload), headers=(accept_json)
-    #return{'foo': 'bar'}
 
-    #return {'aas':11,'as':122}
-  #else:
-   # return "Content type is not supported."
 
 if __name__ == '__main__':
    print("+++++++++++++++++++++++++++++++++++ main")
